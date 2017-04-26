@@ -2,6 +2,10 @@
 on init
     export TERMINFO /system/etc/terminfo
 
+on boot
+    # allow system to communicate pocket state
+    chown system system /sys/kernel/pocket_judge/inpocket
+
 on post-fs-data
     mkdir /cache/recovery 0770 system cache
 
