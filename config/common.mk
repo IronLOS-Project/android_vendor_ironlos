@@ -159,6 +159,11 @@ PRODUCT_PACKAGES += \
     StitchImage \
     OmniJaws
 
+# FOD Animation
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
