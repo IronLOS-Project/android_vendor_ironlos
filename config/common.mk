@@ -154,6 +154,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 endif
 
+#Asus Longshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
