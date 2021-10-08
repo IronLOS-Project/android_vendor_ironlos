@@ -213,7 +213,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ironlos/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/ironlos/overlay/common
 
 PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 2
+PRODUCT_VERSION_MINOR = 3
 PRODUCT_VERSION_MAINTENANCE := 0
 
 # Filter out random types, so it'll reset to UNOFFICIAL
